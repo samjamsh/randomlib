@@ -22,7 +22,7 @@ Ideal para experimentos de pseudoaleatoriedade, simulações, geração de seeds
 
 A biblioteca é autônoma — não depende de pacotes externos além da biblioteca padrão do Python.
 
-Basta copiar o arquivo **`ramlib.py`** (ou `randomlib.py`) para o seu projeto.
+Basta copiar o arquivo `randomlib.py` para o seu projeto.
 
 ---
 

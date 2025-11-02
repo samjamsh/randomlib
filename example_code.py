@@ -1,10 +1,15 @@
 from ramlib import genrandom
 
-print("Get & Print a random value")
-
+# Get & Print a random value
 start = 1
 end = 10
 
-random_value = genrandom(start, end).getnew()
-print("\nRandom Value:", random_value)
+random_value = genrandom(start, end)
+print("\nRandom Value:", random_value.getnew())     # get a random value once
 print()
+
+for i in range(5):
+    newrandom = random_value.generate(start, end)   # get a random value multiple times
+    print("New Random:", newrandom)
+print()
+

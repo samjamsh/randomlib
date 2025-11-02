@@ -31,6 +31,16 @@ Basta copiar o arquivo **`ramlib.py`** (ou `randomlib.py`) para o seu projeto.
 ```python
 from ramlib import genrandom
 
-# Cria um gerador no intervalo [1, 100]
-random_value = genrandom(1, 100).getnew()
-print("Random Value:", random_value)
+# Get & Print a random value
+start = 1
+end = 10
+
+random_value = genrandom(start, end)
+print("\nRandom Value:", random_value.getnew())
+print()
+
+for i in range(5):
+    newrandom = random_value.generate(start, end)
+    print("New Random:", newrandom)
+print()
+

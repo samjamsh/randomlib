@@ -13,7 +13,6 @@ Versão: 1.0
 import time
 import datetime
 from random import randrange
-from collections import Counter
 
 
 class genrandom():
